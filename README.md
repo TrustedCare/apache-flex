@@ -39,17 +39,17 @@ How to build the installer using ANT (no Flash Builder or any other IDE required
 	A temporary digital signing certificate - temp.p12 will be created in the installer
 	directory as well.  The password for this file is available in the build.properties
 	file (var: TEMP_PASS_CHANGE_THIS)```
-  
+
 
 Requirements
 ------------
 
-Assumes that the host is ansible-ready (check **mtpereira.common** role).
+Assumes that ANT is already installed.
 
 Role Variables
 --------------
 
-* `passenger_webserver`: Specifies the webserver to be used by passenger. Possible values: `apache`, `nginx` and `standalone`. Defaults to `standalone`.
+* `flex-installer-url`: Specifies the URL to download the flex sdk installer.
 * `passenger_pkgs_state`: Specifies if this role will garantee that the packages are installed or installed and updated. Possible values: `installed` and `latest`. Defaults to `installed`.
 
 License
@@ -60,6 +60,4 @@ MIT
 Author Information
 ------------------
 
-[GitHub project page](https://github.com/mtpereira/ansible-passenger)
-
-[Manuel Tiago Pereira](http://mtpereira.github.io)
+[GitHub project page](https://github.com/TrustedCare/apache-flex.git)
