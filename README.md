@@ -1,11 +1,11 @@
-Apache-FLEX
-========
-
+# Apache-FLEX
+---
 Installs or updates Apache Flex using ANT.
 
 Following the instructions for building Flex using the [Apache README](https://dist.apache.org/repos/dist/release/flex/installer/3.2/READme).  At the time of this writing, the instructions are as follows:
 
-```==========================================================================================
+```
+==========================================================================================
 How to build the installer using ANT (no Flash Builder or any other IDE required):
 ==========================================================================================
 
@@ -38,26 +38,22 @@ How to build the installer using ANT (no Flash Builder or any other IDE required
     on Windows, you will see an .exe file; if you are on Mac OS, you will see a .dmg file.  
 	A temporary digital signing certificate - temp.p12 will be created in the installer
 	directory as well.  The password for this file is available in the build.properties
-	file (var: TEMP_PASS_CHANGE_THIS)```
+	file (var: TEMP_PASS_CHANGE_THIS)
+  ```
 
-
-Requirements
-------------
-
+## Requirements
+---
 Assumes that ANT is already installed.
 
-Role Variables
---------------
-
+## Role Variables
+---
 * `flex-installer-url`: Specifies the URL to download the flex sdk installer.
 * `passenger_pkgs_state`: Specifies if this role will garantee that the packages are installed or installed and updated. Possible values: `installed` and `latest`. Defaults to `installed`.
 
-License
--------
-
+## License
+---
 MIT
 
-Author Information
-------------------
-
+## Author Information
+---
 [GitHub project page](https://github.com/TrustedCare/apache-flex.git)
