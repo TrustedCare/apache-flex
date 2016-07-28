@@ -1,3 +1,5 @@
 ---
   flex-installer-url: "http://www.apache.org/dyn/closer.lua/flex/installer/3.2/apache-flex-sdk-installer-3.2.0-src.tar.gz"
+  FLEX_HOME: /home/ubuntu/flexhome
+  AIR_HOME: /home/ubuntu/airhome
   

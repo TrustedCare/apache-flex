@@ -48,7 +48,8 @@ Assumes that ANT is already installed.
 ## Role Variables
 ---
 * `flex-installer-url`: Specifies the URL to download the flex sdk installer.
-* `passenger_pkgs_state`: Specifies if this role will garantee that the packages are installed or installed and updated. Possible values: `installed` and `latest`. Defaults to `installed`.
+* `FLEX_HOME`: is the absolute path to the Apache Flex SDK.
+* `AIR_HOME`: is the absolute path to the Adobe AIR SDK.
 
 ## License
 ---
